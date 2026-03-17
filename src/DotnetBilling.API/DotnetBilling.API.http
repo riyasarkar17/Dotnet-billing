@@ -1,0 +1,9 @@
+@DotnetBilling.API_HostAddress = http://localhost:5001
+
+### Customers
+GET {{DotnetBilling.API_HostAddress}}/api/customers
+Accept: application/json
+
+### Products
+GET {{DotnetBilling.API_HostAddress}}/api/products
+Accept: application/json
